@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09979DEAD2E73EF52AA0419ED6BC2B93 /* PinLayout+Relative.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9ED6A309F439D9DDA533A55BF1013 /* PinLayout+Relative.swift */; };
+		158B2FC7F98244E2C0D8F3BFCE0C0AF4 /* PinLayout+WrapContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E36CEEE56829A5C374C5F4B584C0AE /* PinLayout+WrapContent.swift */; };
+		15DCF5D4B77B7343AE640BFEE9A8AA31 /* Types+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B6AA0099AB889536614B5EFC6B22E0 /* Types+Description.swift */; };
+		1A7C129E7538A148941C0FA9EA86EF84 /* PinLayout+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3EAE66F2E5898C8322BB881891C87E /* PinLayout+Size.swift */; };
+		20E6CEA116AB666D717D1C843BAC1976 /* Layoutable+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849690C3E29090A51C5F70E09D30BD17 /* Layoutable+PinLayout.swift */; };
+		2CD641139C2C7B277D9B1F4E0B92A59B /* PinLayoutObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E016BE1104F8450D88DF30E5B27DECCD /* PinLayoutObjC.swift */; };
+		30BA19CE2D677D73506AA65F5750C200 /* NSView+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B775851202C8776A87CD28A2F23E20 /* NSView+PinLayout.swift */; };
+		31BBA7C0DCD353A3322D352E1852D40A /* PinLayout+Layouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAEBB337E6E154B209FE3CC2D9C2E7E /* PinLayout+Layouting.swift */; };
+		34FA3BD7646E614B6A813D17078BE795 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB72C23D480306FFE9F06BC2AA3B979 /* Types.swift */; };
+		456A864FBFC13AC8F02BCBB419FA54B6 /* PinSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D65614C30B4142714EA82F696F6CA52 /* PinSafeArea.swift */; };
+		4B2C3F02947486290EA30E7A869BCF7C /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7C92477EDEF52282C0B1363D0393B /* Pin.swift */; };
+		4E263BF24A5E4D9D01C3874AB2C81BE0 /* PinLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA6E40F09557E13206B533742382FEE /* PinLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F81C880A0A613D15F2A1D3E256EA09F /* PinLayout+Between.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A07D64A9E76AE92F5A7DB9A75CB0FD /* PinLayout+Between.swift */; };
+		4F83AEB7D0A9B7379B1B3A0EDCA20DC5 /* PinLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7F71D884E2D03BCA90990F58625913 /* PinLayout-dummy.m */; };
+		553418A2A39AEB0D79FF5A40086A8F90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0099C32CD052D2679865CAE3EEEEAB2 /* CoreGraphics.framework */; };
+		5C8BD3D8ACE9172C46E26E2EE555628A /* Pods-HBIDCardInputTextFieldDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE93DF59DED68C0E0F8A413715C3A7 /* Pods-HBIDCardInputTextFieldDemoUITests-dummy.m */; };
+		5DD7792B8DFBFF27ADD5F162C5DE9BE3 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DFF28D5BE83FE9AC820F4BF28667B7 /* Coordinates.swift */; };
+		629BB79DCE82121B23554B5ABE836870 /* PinLayout+Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6A4CA48053708B08750EC7F432B05 /* PinLayout+Coordinates.swift */; };
+		675A14F71A2CCFA72F308A7EA98BFBFE /* PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B3198323941C0FEF82E88569A22972 /* PinLayout.swift */; };
+		867E6497ED5380B3DC6FA173076D97ED /* Pods-HBIDCardInputTextFieldDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3B85F01858089B12F9AD4D3B7C1008 /* Pods-HBIDCardInputTextFieldDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88A8ABDABD33D987D4221AE0E186FF65 /* PEdgeInsets+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BDADD8D29A479FACB8E6A68B0A045 /* PEdgeInsets+Operators.swift */; };
+		A58DBF80FC95E9515B32CDBB08C31884 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300D7C9C38226ED88862DA2E4F6D939A /* UIKit.framework */; };
+		A7B459071647D19FD64EEFFB8F154596 /* UIView+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C511A8D784FE456DAF9D4603110681 /* UIView+PinLayout.swift */; };
+		AE7F7FA1CD074A2CD216D1135F45374A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */; };
+		BB2D1B506FC077183DB5BD25E31E09D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */; };
+		C44E85BF0DFB31C02D97A594A78DCFB1 /* SizeCalculable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A0F54C108DC4BCCD1D9211FB18EF94 /* SizeCalculable.swift */; };
+		C8D4ABADFA8C93D9A676AE724FC585CD /* CALayer+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18FD3271A2EA848F83683CD3A949A5E /* CALayer+PinLayout.swift */; };
+		D6FEF61BA969133F396DAF841F9A649F /* PinLayoutObjCImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD81B19E1660BA489433E8194B6EB74 /* PinLayoutObjCImpl.swift */; };
+		E037C6873B0F403395F0DF98A0B94C42 /* PinLayout+Warning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF40DB63700DD10EC657550CF25C10E /* PinLayout+Warning.swift */; };
+		ECAA230EE52B8823C7EC0107E70B4075 /* Percent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF6CD7FC3D9B9DAA44F686E86B07B2 /* Percent.swift */; };
+		F383186B0F0C1BEF339401927C946103 /* Layoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EA1A9B2BE068171D3555E364AC7059 /* Layoutable.swift */; };
+		F58BC2C91D8E930981ABB1920952CB90 /* TypesImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77DFB8B77297763BC9AEB91ADB799F /* TypesImpl.swift */; };
+		F8241C2A1A50B6E681EC6FCF608FCCED /* Pods-HBIDCardInputTextFieldDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 083CCDDF53EEDB270F65332F7AB862BA /* Pods-HBIDCardInputTextFieldDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FADEF9DA0E294DA6F620E32432765CC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */; };
+		FC3A85FFD356F4AAA93C654CBC353F84 /* Pods-HBIDCardInputTextFieldDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BB70D965CD09391010EBC64F9252AD /* Pods-HBIDCardInputTextFieldDemo-dummy.m */; };
+		FFC48FDED3C42832A44906B7A4899DB9 /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4DFBD98A963FB8821A14DAD2FEC06 /* Filters.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1093BBD19A692FAEEDD139E78F1D9FC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F78D278FB739517AE6B08F96AB75280;
+			remoteInfo = PinLayout;
+		};
+		17A22F56F7415DD89DF6ABD323C0F2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E413BFA08AB4A9BED28B2F18508245;
+			remoteInfo = "Pods-HBIDCardInputTextFieldDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07F7C92477EDEF52282C0B1363D0393B /* Pin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pin.swift; path = Sources/Pin.swift; sourceTree = "<group>"; };
+		083CCDDF53EEDB270F65332F7AB862BA /* Pods-HBIDCardInputTextFieldDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBIDCardInputTextFieldDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		11B3198323941C0FEF82E88569A22972 /* PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinLayout.swift; path = Sources/PinLayout.swift; sourceTree = "<group>"; };
+		195BDADD8D29A479FACB8E6A68B0A045 /* PEdgeInsets+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PEdgeInsets+Operators.swift"; path = "Sources/Extensions/PEdgeInsets+Operators.swift"; sourceTree = "<group>"; };
+		233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2606980D8A4B41859A6916CF2C9F03E2 /* Pods-HBIDCardInputTextFieldDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBIDCardInputTextFieldDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		300D7C9C38226ED88862DA2E4F6D939A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		37E0A83C35348F58F97317631C02EA6E /* PinLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PinLayout.modulemap; sourceTree = "<group>"; };
+		39D4DFBD98A963FB8821A14DAD2FEC06 /* Filters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filters.swift; path = Sources/Filters.swift; sourceTree = "<group>"; };
+		3DA25A25A6C79B0F33AEC72982B32BA7 /* Pods-HBIDCardInputTextFieldDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBIDCardInputTextFieldDemo-frameworks.sh"; sourceTree = "<group>"; };
+		40B6A4CA48053708B08750EC7F432B05 /* PinLayout+Coordinates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Coordinates.swift"; path = "Sources/Impl/PinLayout+Coordinates.swift"; sourceTree = "<group>"; };
+		42DFF28D5BE83FE9AC820F4BF28667B7 /* Coordinates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinates.swift; path = Sources/Impl/Coordinates.swift; sourceTree = "<group>"; };
+		42E36CEEE56829A5C374C5F4B584C0AE /* PinLayout+WrapContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+WrapContent.swift"; path = "Sources/PinLayout+WrapContent.swift"; sourceTree = "<group>"; };
+		49A1B30EADC8BCAF734D81E271752CDD /* PinLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PinLayout.framework; path = PinLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2011475FDD055E2AFD10F601DCE4EB /* Pods-HBIDCardInputTextFieldDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBIDCardInputTextFieldDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CF40DB63700DD10EC657550CF25C10E /* PinLayout+Warning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Warning.swift"; path = "Sources/Impl/PinLayout+Warning.swift"; sourceTree = "<group>"; };
+		4DD81B19E1660BA489433E8194B6EB74 /* PinLayoutObjCImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinLayoutObjCImpl.swift; path = Sources/ObjectiveC/PinLayoutObjCImpl.swift; sourceTree = "<group>"; };
+		50517E1901D4778B5972932113EEB1FE /* Pods-HBIDCardInputTextFieldDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBIDCardInputTextFieldDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		50EA1A9B2BE068171D3555E364AC7059 /* Layoutable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layoutable.swift; path = Sources/Layoutable.swift; sourceTree = "<group>"; };
+		54BF6CD7FC3D9B9DAA44F686E86B07B2 /* Percent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Percent.swift; path = Sources/Impl/Percent.swift; sourceTree = "<group>"; };
+		5C3B85F01858089B12F9AD4D3B7C1008 /* Pods-HBIDCardInputTextFieldDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBIDCardInputTextFieldDemo-umbrella.h"; sourceTree = "<group>"; };
+		5D5466F530E336778B05882EF8F9C6A0 /* Pods_HBIDCardInputTextFieldDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBIDCardInputTextFieldDemo.framework; path = "Pods-HBIDCardInputTextFieldDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D65614C30B4142714EA82F696F6CA52 /* PinSafeArea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinSafeArea.swift; path = Sources/Impl/PinSafeArea.swift; sourceTree = "<group>"; };
+		63B775851202C8776A87CD28A2F23E20 /* NSView+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSView+PinLayout.swift"; path = "Sources/Extensions/NSView+PinLayout.swift"; sourceTree = "<group>"; };
+		711618B0292FC1AB9F588B1C3AEFD654 /* PinLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PinLayout-Info.plist"; sourceTree = "<group>"; };
+		74DB7C83AB3FF08A395554A646B16FE2 /* Pods-HBIDCardInputTextFieldDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBIDCardInputTextFieldDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		79A7447BA584CC82C0862D64F34AA412 /* Pods-HBIDCardInputTextFieldDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBIDCardInputTextFieldDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C3EAE66F2E5898C8322BB881891C87E /* PinLayout+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Size.swift"; path = "Sources/PinLayout+Size.swift"; sourceTree = "<group>"; };
+		7E6E06D4BE48C41169BB1EFD04CB150E /* Pods-HBIDCardInputTextFieldDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBIDCardInputTextFieldDemoUITests.modulemap"; sourceTree = "<group>"; };
+		849690C3E29090A51C5F70E09D30BD17 /* Layoutable+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Layoutable+PinLayout.swift"; path = "Sources/Layoutable+PinLayout.swift"; sourceTree = "<group>"; };
+		85B6AA0099AB889536614B5EFC6B22E0 /* Types+Description.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Types+Description.swift"; path = "Sources/Types+Description.swift"; sourceTree = "<group>"; };
+		8CA6E40F09557E13206B533742382FEE /* PinLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinLayout-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0099C32CD052D2679865CAE3EEEEAB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		AD7F71D884E2D03BCA90990F58625913 /* PinLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinLayout-dummy.m"; sourceTree = "<group>"; };
+		B514F92935D0BEB8114CBD5A7904DA4E /* Pods-HBIDCardInputTextFieldDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBIDCardInputTextFieldDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7C511A8D784FE456DAF9D4603110681 /* UIView+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+PinLayout.swift"; path = "Sources/Extensions/UIView+PinLayout.swift"; sourceTree = "<group>"; };
+		BA89BD62E811E1982D00E6F813426DC7 /* Pods-HBIDCardInputTextFieldDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBIDCardInputTextFieldDemo-Info.plist"; sourceTree = "<group>"; };
+		C18FD3271A2EA848F83683CD3A949A5E /* CALayer+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+PinLayout.swift"; path = "Sources/Extensions/CALayer+PinLayout.swift"; sourceTree = "<group>"; };
+		C9BB70D965CD09391010EBC64F9252AD /* Pods-HBIDCardInputTextFieldDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBIDCardInputTextFieldDemo-dummy.m"; sourceTree = "<group>"; };
+		CAAEBB337E6E154B209FE3CC2D9C2E7E /* PinLayout+Layouting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Layouting.swift"; path = "Sources/Impl/PinLayout+Layouting.swift"; sourceTree = "<group>"; };
+		D9B2D357B60798D0912ACCBA0AE66DFC /* Pods-HBIDCardInputTextFieldDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBIDCardInputTextFieldDemo.modulemap"; sourceTree = "<group>"; };
+		DB99D3FA78CB3676699F37D1FA89DA89 /* Pods_HBIDCardInputTextFieldDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBIDCardInputTextFieldDemoUITests.framework; path = "Pods-HBIDCardInputTextFieldDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA0867421CD92B58810FC98F2374BF9 /* PinLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinLayout-prefix.pch"; sourceTree = "<group>"; };
+		E016BE1104F8450D88DF30E5B27DECCD /* PinLayoutObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinLayoutObjC.swift; path = Sources/ObjectiveC/PinLayoutObjC.swift; sourceTree = "<group>"; };
+		E6EE93DF59DED68C0E0F8A413715C3A7 /* Pods-HBIDCardInputTextFieldDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBIDCardInputTextFieldDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		EBB72C23D480306FFE9F06BC2AA3B979 /* Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Types.swift; path = Sources/Types.swift; sourceTree = "<group>"; };
+		ECE9ED6A309F439D9DDA533A55BF1013 /* PinLayout+Relative.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Relative.swift"; path = "Sources/PinLayout+Relative.swift"; sourceTree = "<group>"; };
+		ED059FFF804CE35261745170C25F1AF4 /* PinLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinLayout.xcconfig; sourceTree = "<group>"; };
+		F3A0F54C108DC4BCCD1D9211FB18EF94 /* SizeCalculable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeCalculable.swift; path = Sources/SizeCalculable.swift; sourceTree = "<group>"; };
+		F5A07D64A9E76AE92F5A7DB9A75CB0FD /* PinLayout+Between.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Between.swift"; path = "Sources/PinLayout+Between.swift"; sourceTree = "<group>"; };
+		F5D0C55136735DABAACFAB029D940FCA /* Pods-HBIDCardInputTextFieldDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBIDCardInputTextFieldDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		F8B2840077A411C1F70648D795A5247E /* Pods-HBIDCardInputTextFieldDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBIDCardInputTextFieldDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FD934D900B32837B0303AA2C4C46E216 /* Pods-HBIDCardInputTextFieldDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBIDCardInputTextFieldDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF77DFB8B77297763BC9AEB91ADB799F /* TypesImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypesImpl.swift; path = Sources/Impl/TypesImpl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526D522F46EA1BB022EB57CD0A418A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553418A2A39AEB0D79FF5A40086A8F90 /* CoreGraphics.framework in Frameworks */,
+				AE7F7FA1CD074A2CD216D1135F45374A /* Foundation.framework in Frameworks */,
+				A58DBF80FC95E9515B32CDBB08C31884 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20CF44080A403F1A56B8F937D44E0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2D1B506FC077183DB5BD25E31E09D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA655C7A0BA693A9018E1FB8AE53CA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADEF9DA0E294DA6F620E32432765CC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5246D3CB0F6FF3AC9502D9EA5C5D6540 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B429E437128B8960AAB487D06E7BF17 /* Pods-HBIDCardInputTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2D357B60798D0912ACCBA0AE66DFC /* Pods-HBIDCardInputTextFieldDemo.modulemap */,
+				FD934D900B32837B0303AA2C4C46E216 /* Pods-HBIDCardInputTextFieldDemo-acknowledgements.markdown */,
+				79A7447BA584CC82C0862D64F34AA412 /* Pods-HBIDCardInputTextFieldDemo-acknowledgements.plist */,
+				C9BB70D965CD09391010EBC64F9252AD /* Pods-HBIDCardInputTextFieldDemo-dummy.m */,
+				3DA25A25A6C79B0F33AEC72982B32BA7 /* Pods-HBIDCardInputTextFieldDemo-frameworks.sh */,
+				BA89BD62E811E1982D00E6F813426DC7 /* Pods-HBIDCardInputTextFieldDemo-Info.plist */,
+				5C3B85F01858089B12F9AD4D3B7C1008 /* Pods-HBIDCardInputTextFieldDemo-umbrella.h */,
+				74DB7C83AB3FF08A395554A646B16FE2 /* Pods-HBIDCardInputTextFieldDemo.debug.xcconfig */,
+				F8B2840077A411C1F70648D795A5247E /* Pods-HBIDCardInputTextFieldDemo.release.xcconfig */,
+			);
+			name = "Pods-HBIDCardInputTextFieldDemo";
+			path = "Target Support Files/Pods-HBIDCardInputTextFieldDemo";
+			sourceTree = "<group>";
+		};
+		5246D3CB0F6FF3AC9502D9EA5C5D6540 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A0099C32CD052D2679865CAE3EEEEAB2 /* CoreGraphics.framework */,
+				233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */,
+				300D7C9C38226ED88862DA2E4F6D939A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E3846C128ACA1715DB6E96B752D4B57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A1B30EADC8BCAF734D81E271752CDD /* PinLayout.framework */,
+				5D5466F530E336778B05882EF8F9C6A0 /* Pods_HBIDCardInputTextFieldDemo.framework */,
+				DB99D3FA78CB3676699F37D1FA89DA89 /* Pods_HBIDCardInputTextFieldDemoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4D1F7B7997735E92BA93C48E6EA66F6 /* Pods-HBIDCardInputTextFieldDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6E06D4BE48C41169BB1EFD04CB150E /* Pods-HBIDCardInputTextFieldDemoUITests.modulemap */,
+				2606980D8A4B41859A6916CF2C9F03E2 /* Pods-HBIDCardInputTextFieldDemoUITests-acknowledgements.markdown */,
+				50517E1901D4778B5972932113EEB1FE /* Pods-HBIDCardInputTextFieldDemoUITests-acknowledgements.plist */,
+				E6EE93DF59DED68C0E0F8A413715C3A7 /* Pods-HBIDCardInputTextFieldDemoUITests-dummy.m */,
+				F5D0C55136735DABAACFAB029D940FCA /* Pods-HBIDCardInputTextFieldDemoUITests-Info.plist */,
+				083CCDDF53EEDB270F65332F7AB862BA /* Pods-HBIDCardInputTextFieldDemoUITests-umbrella.h */,
+				B514F92935D0BEB8114CBD5A7904DA4E /* Pods-HBIDCardInputTextFieldDemoUITests.debug.xcconfig */,
+				4B2011475FDD055E2AFD10F601DCE4EB /* Pods-HBIDCardInputTextFieldDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-HBIDCardInputTextFieldDemoUITests";
+			path = "Target Support Files/Pods-HBIDCardInputTextFieldDemoUITests";
+			sourceTree = "<group>";
+		};
+		C10D21BE3AB93A06803AD716AF003C0B /* PinLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C18FD3271A2EA848F83683CD3A949A5E /* CALayer+PinLayout.swift */,
+				42DFF28D5BE83FE9AC820F4BF28667B7 /* Coordinates.swift */,
+				39D4DFBD98A963FB8821A14DAD2FEC06 /* Filters.swift */,
+				50EA1A9B2BE068171D3555E364AC7059 /* Layoutable.swift */,
+				849690C3E29090A51C5F70E09D30BD17 /* Layoutable+PinLayout.swift */,
+				63B775851202C8776A87CD28A2F23E20 /* NSView+PinLayout.swift */,
+				195BDADD8D29A479FACB8E6A68B0A045 /* PEdgeInsets+Operators.swift */,
+				54BF6CD7FC3D9B9DAA44F686E86B07B2 /* Percent.swift */,
+				07F7C92477EDEF52282C0B1363D0393B /* Pin.swift */,
+				11B3198323941C0FEF82E88569A22972 /* PinLayout.swift */,
+				F5A07D64A9E76AE92F5A7DB9A75CB0FD /* PinLayout+Between.swift */,
+				40B6A4CA48053708B08750EC7F432B05 /* PinLayout+Coordinates.swift */,
+				CAAEBB337E6E154B209FE3CC2D9C2E7E /* PinLayout+Layouting.swift */,
+				ECE9ED6A309F439D9DDA533A55BF1013 /* PinLayout+Relative.swift */,
+				7C3EAE66F2E5898C8322BB881891C87E /* PinLayout+Size.swift */,
+				4CF40DB63700DD10EC657550CF25C10E /* PinLayout+Warning.swift */,
+				42E36CEEE56829A5C374C5F4B584C0AE /* PinLayout+WrapContent.swift */,
+				E016BE1104F8450D88DF30E5B27DECCD /* PinLayoutObjC.swift */,
+				4DD81B19E1660BA489433E8194B6EB74 /* PinLayoutObjCImpl.swift */,
+				5D65614C30B4142714EA82F696F6CA52 /* PinSafeArea.swift */,
+				F3A0F54C108DC4BCCD1D9211FB18EF94 /* SizeCalculable.swift */,
+				EBB72C23D480306FFE9F06BC2AA3B979 /* Types.swift */,
+				85B6AA0099AB889536614B5EFC6B22E0 /* Types+Description.swift */,
+				FF77DFB8B77297763BC9AEB91ADB799F /* TypesImpl.swift */,
+				B7C511A8D784FE456DAF9D4603110681 /* UIView+PinLayout.swift */,
+				CFD481E6AE85D2077570C76F138E5065 /* Support Files */,
+			);
+			name = PinLayout;
+			path = PinLayout;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				FD40588C0CBD2A096BDC8A4A076F5F35 /* Pods */,
+				5E3846C128ACA1715DB6E96B752D4B57 /* Products */,
+				D98F493A6BA517E59A46D077779C243C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD481E6AE85D2077570C76F138E5065 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37E0A83C35348F58F97317631C02EA6E /* PinLayout.modulemap */,
+				ED059FFF804CE35261745170C25F1AF4 /* PinLayout.xcconfig */,
+				AD7F71D884E2D03BCA90990F58625913 /* PinLayout-dummy.m */,
+				711618B0292FC1AB9F588B1C3AEFD654 /* PinLayout-Info.plist */,
+				DFA0867421CD92B58810FC98F2374BF9 /* PinLayout-prefix.pch */,
+				8CA6E40F09557E13206B533742382FEE /* PinLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PinLayout";
+			sourceTree = "<group>";
+		};
+		D98F493A6BA517E59A46D077779C243C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B429E437128B8960AAB487D06E7BF17 /* Pods-HBIDCardInputTextFieldDemo */,
+				B4D1F7B7997735E92BA93C48E6EA66F6 /* Pods-HBIDCardInputTextFieldDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FD40588C0CBD2A096BDC8A4A076F5F35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C10D21BE3AB93A06803AD716AF003C0B /* PinLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FA63C58E880A6DC8FA1F8B2CB235FEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867E6497ED5380B3DC6FA173076D97ED /* Pods-HBIDCardInputTextFieldDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F14C25413092E7FF9191F10D713DAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E263BF24A5E4D9D01C3874AB2C81BE0 /* PinLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE07D5A1FCC87E3A2C44AC1B7D993A61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8241C2A1A50B6E681EC6FCF608FCCED /* Pods-HBIDCardInputTextFieldDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F78D278FB739517AE6B08F96AB75280 /* PinLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7973F5EA609126C059569770858F3D93 /* Build configuration list for PBXNativeTarget "PinLayout" */;
+			buildPhases = (
+				61F14C25413092E7FF9191F10D713DAC /* Headers */,
+				7D97B87B6BFD6E1E1D0C6475FDBAC1AF /* Sources */,
+				526D522F46EA1BB022EB57CD0A418A06 /* Frameworks */,
+				0FAF33D95AA7FFA7E9ECF73C1A5A767F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinLayout;
+			productName = PinLayout;
+			productReference = 49A1B30EADC8BCAF734D81E271752CDD /* PinLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62E413BFA08AB4A9BED28B2F18508245 /* Pods-HBIDCardInputTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E5DB014891D6E166BAE0A11DCAA3294 /* Build configuration list for PBXNativeTarget "Pods-HBIDCardInputTextFieldDemo" */;
+			buildPhases = (
+				2FA63C58E880A6DC8FA1F8B2CB235FEB /* Headers */,
+				742EB00CF71AAE5AA837A163B77B8FF5 /* Sources */,
+				CA655C7A0BA693A9018E1FB8AE53CA78 /* Frameworks */,
+				E2FC453938048A34A8B6874693CB93C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B561E62DE35ABC0066D5FDFDB43D4D3B /* PBXTargetDependency */,
+			);
+			name = "Pods-HBIDCardInputTextFieldDemo";
+			productName = "Pods-HBIDCardInputTextFieldDemo";
+			productReference = 5D5466F530E336778B05882EF8F9C6A0 /* Pods_HBIDCardInputTextFieldDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7917E18E732F1D030C3243DBB68BD6A /* Pods-HBIDCardInputTextFieldDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16FC6CCC804F2EFEA5ADCDB7B8C2185A /* Build configuration list for PBXNativeTarget "Pods-HBIDCardInputTextFieldDemoUITests" */;
+			buildPhases = (
+				DE07D5A1FCC87E3A2C44AC1B7D993A61 /* Headers */,
+				B442489140FA8FBCB66848296089CDAB /* Sources */,
+				C20CF44080A403F1A56B8F937D44E0D9 /* Frameworks */,
+				74985C961A307A684503410D723B82E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0D07F99E5103700FA54C06B487316FD /* PBXTargetDependency */,
+			);
+			name = "Pods-HBIDCardInputTextFieldDemoUITests";
+			productName = "Pods-HBIDCardInputTextFieldDemoUITests";
+			productReference = DB99D3FA78CB3676699F37D1FA89DA89 /* Pods_HBIDCardInputTextFieldDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5E3846C128ACA1715DB6E96B752D4B57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F78D278FB739517AE6B08F96AB75280 /* PinLayout */,
+				62E413BFA08AB4A9BED28B2F18508245 /* Pods-HBIDCardInputTextFieldDemo */,
+				D7917E18E732F1D030C3243DBB68BD6A /* Pods-HBIDCardInputTextFieldDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FAF33D95AA7FFA7E9ECF73C1A5A767F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74985C961A307A684503410D723B82E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FC453938048A34A8B6874693CB93C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		742EB00CF71AAE5AA837A163B77B8FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3A85FFD356F4AAA93C654CBC353F84 /* Pods-HBIDCardInputTextFieldDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D97B87B6BFD6E1E1D0C6475FDBAC1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D4ABADFA8C93D9A676AE724FC585CD /* CALayer+PinLayout.swift in Sources */,
+				5DD7792B8DFBFF27ADD5F162C5DE9BE3 /* Coordinates.swift in Sources */,
+				FFC48FDED3C42832A44906B7A4899DB9 /* Filters.swift in Sources */,
+				20E6CEA116AB666D717D1C843BAC1976 /* Layoutable+PinLayout.swift in Sources */,
+				F383186B0F0C1BEF339401927C946103 /* Layoutable.swift in Sources */,
+				30BA19CE2D677D73506AA65F5750C200 /* NSView+PinLayout.swift in Sources */,
+				88A8ABDABD33D987D4221AE0E186FF65 /* PEdgeInsets+Operators.swift in Sources */,
+				ECAA230EE52B8823C7EC0107E70B4075 /* Percent.swift in Sources */,
+				4B2C3F02947486290EA30E7A869BCF7C /* Pin.swift in Sources */,
+				4F81C880A0A613D15F2A1D3E256EA09F /* PinLayout+Between.swift in Sources */,
+				629BB79DCE82121B23554B5ABE836870 /* PinLayout+Coordinates.swift in Sources */,
+				31BBA7C0DCD353A3322D352E1852D40A /* PinLayout+Layouting.swift in Sources */,
+				09979DEAD2E73EF52AA0419ED6BC2B93 /* PinLayout+Relative.swift in Sources */,
+				1A7C129E7538A148941C0FA9EA86EF84 /* PinLayout+Size.swift in Sources */,
+				E037C6873B0F403395F0DF98A0B94C42 /* PinLayout+Warning.swift in Sources */,
+				158B2FC7F98244E2C0D8F3BFCE0C0AF4 /* PinLayout+WrapContent.swift in Sources */,
+				4F83AEB7D0A9B7379B1B3A0EDCA20DC5 /* PinLayout-dummy.m in Sources */,
+				675A14F71A2CCFA72F308A7EA98BFBFE /* PinLayout.swift in Sources */,
+				2CD641139C2C7B277D9B1F4E0B92A59B /* PinLayoutObjC.swift in Sources */,
+				D6FEF61BA969133F396DAF841F9A649F /* PinLayoutObjCImpl.swift in Sources */,
+				456A864FBFC13AC8F02BCBB419FA54B6 /* PinSafeArea.swift in Sources */,
+				C44E85BF0DFB31C02D97A594A78DCFB1 /* SizeCalculable.swift in Sources */,
+				15DCF5D4B77B7343AE640BFEE9A8AA31 /* Types+Description.swift in Sources */,
+				34FA3BD7646E614B6A813D17078BE795 /* Types.swift in Sources */,
+				F58BC2C91D8E930981ABB1920952CB90 /* TypesImpl.swift in Sources */,
+				A7B459071647D19FD64EEFFB8F154596 /* UIView+PinLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B442489140FA8FBCB66848296089CDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8BD3D8ACE9172C46E26E2EE555628A /* Pods-HBIDCardInputTextFieldDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B561E62DE35ABC0066D5FDFDB43D4D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinLayout;
+			target = 4F78D278FB739517AE6B08F96AB75280 /* PinLayout */;
+			targetProxy = 1093BBD19A692FAEEDD139E78F1D9FC2 /* PBXContainerItemProxy */;
+		};
+		F0D07F99E5103700FA54C06B487316FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HBIDCardInputTextFieldDemo";
+			target = 62E413BFA08AB4A9BED28B2F18508245 /* Pods-HBIDCardInputTextFieldDemo */;
+			targetProxy = 17A22F56F7415DD89DF6ABD323C0F2DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E48C2C182A6F14FCC9837028F7AEE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED059FFF804CE35261745170C25F1AF4 /* PinLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinLayout/PinLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinLayout/PinLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PinLayout/PinLayout.modulemap";
+				PRODUCT_MODULE_NAME = PinLayout;
+				PRODUCT_NAME = PinLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3225527CF83C11DF52C3DBC176A1B6ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B514F92935D0BEB8114CBD5A7904DA4E /* Pods-HBIDCardInputTextFieldDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBIDCardInputTextFieldDemoUITests/Pods-HBIDCardInputTextFieldDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBIDCardInputTextFieldDemoUITests/Pods-HBIDCardInputTextFieldDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63921580995275AE8984EFD027F0E1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B2840077A411C1F70648D795A5247E /* Pods-HBIDCardInputTextFieldDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBIDCardInputTextFieldDemo/Pods-HBIDCardInputTextFieldDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBIDCardInputTextFieldDemo/Pods-HBIDCardInputTextFieldDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A01A9552EAE19668241A1F7FF186D154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2011475FDD055E2AFD10F601DCE4EB /* Pods-HBIDCardInputTextFieldDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBIDCardInputTextFieldDemoUITests/Pods-HBIDCardInputTextFieldDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBIDCardInputTextFieldDemoUITests/Pods-HBIDCardInputTextFieldDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D19049D39BB7ABC5409A5EC6C51B1DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED059FFF804CE35261745170C25F1AF4 /* PinLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinLayout/PinLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinLayout/PinLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PinLayout/PinLayout.modulemap";
+				PRODUCT_MODULE_NAME = PinLayout;
+				PRODUCT_NAME = PinLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E329597246F140705B611B4A2706AAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DB7C83AB3FF08A395554A646B16FE2 /* Pods-HBIDCardInputTextFieldDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBIDCardInputTextFieldDemo/Pods-HBIDCardInputTextFieldDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBIDCardInputTextFieldDemo/Pods-HBIDCardInputTextFieldDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E5DB014891D6E166BAE0A11DCAA3294 /* Build configuration list for PBXNativeTarget "Pods-HBIDCardInputTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E329597246F140705B611B4A2706AAEC /* Debug */,
+				63921580995275AE8984EFD027F0E1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16FC6CCC804F2EFEA5ADCDB7B8C2185A /* Build configuration list for PBXNativeTarget "Pods-HBIDCardInputTextFieldDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3225527CF83C11DF52C3DBC176A1B6ED /* Debug */,
+				A01A9552EAE19668241A1F7FF186D154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7973F5EA609126C059569770858F3D93 /* Build configuration list for PBXNativeTarget "PinLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E48C2C182A6F14FCC9837028F7AEE9F /* Debug */,
+				D19049D39BB7ABC5409A5EC6C51B1DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

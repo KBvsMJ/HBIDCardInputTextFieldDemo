@@ -1,0 +1,6 @@
+framework module Pods_HBIDCardInputTextFieldDemoUITests {
+  umbrella header "Pods-HBIDCardInputTextFieldDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
