@@ -1,4 +1,5 @@
 # 身份证输入文本框数字键盘
+##备注： 需要第三方库  ``` pod 'PinLayout' ``` 支持布局
 
 1-> 支持cocoapods拉取 使用 ``` pod 'HBIDCardInputKeyBoardTF' ```
 
