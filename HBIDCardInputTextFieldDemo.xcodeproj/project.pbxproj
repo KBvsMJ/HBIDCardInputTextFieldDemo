@@ -15,6 +15,7 @@
 		0E241EE52313E1F400FE7F01 /* HBIDCardInputTextFieldDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E241EE42313E1F400FE7F01 /* HBIDCardInputTextFieldDemoUITests.swift */; };
 		0E241EF22313E55800FE7F01 /* HBIDCardInputKeyBoardTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E241EF12313E55800FE7F01 /* HBIDCardInputKeyBoardTF.swift */; };
 		0E241EF42313F57A00FE7F01 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E241EF32313F57A00FE7F01 /* UIColorExtension.swift */; };
+		0ECE8D3A2316173C00436486 /* HBIdCardInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECE8D392316173C00436486 /* HBIdCardInputTextField.swift */; };
 		36B8B552EE2D0E70DB31B5CC /* Pods_HBIDCardInputTextFieldDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF10EBA95C9C67773D156E88 /* Pods_HBIDCardInputTextFieldDemoUITests.framework */; };
 		D5A907C594DD53E71A53028B /* Pods_HBIDCardInputTextFieldDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8801B021F2254018FDB927EF /* Pods_HBIDCardInputTextFieldDemo.framework */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,7 @@
 		0E241EE62313E1F400FE7F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E241EF12313E55800FE7F01 /* HBIDCardInputKeyBoardTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBIDCardInputKeyBoardTF.swift; sourceTree = "<group>"; };
 		0E241EF32313F57A00FE7F01 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		0ECE8D392316173C00436486 /* HBIdCardInputTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBIdCardInputTextField.swift; sourceTree = "<group>"; };
 		132785F84A46A883562DD21E /* Pods-HBIDCardInputTextFieldDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBIDCardInputTextFieldDemo.release.xcconfig"; path = "Target Support Files/Pods-HBIDCardInputTextFieldDemo/Pods-HBIDCardInputTextFieldDemo.release.xcconfig"; sourceTree = "<group>"; };
 		313C16EC9BB2C9E8D5F50392 /* Pods-HBIDCardInputTextFieldDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBIDCardInputTextFieldDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-HBIDCardInputTextFieldDemoUITests/Pods-HBIDCardInputTextFieldDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		72B2E30939B2421D8D8F7C5C /* Pods-HBIDCardInputTextFieldDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBIDCardInputTextFieldDemo.debug.xcconfig"; path = "Target Support Files/Pods-HBIDCardInputTextFieldDemo/Pods-HBIDCardInputTextFieldDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				0E241EF12313E55800FE7F01 /* HBIDCardInputKeyBoardTF.swift */,
+				0ECE8D392316173C00436486 /* HBIdCardInputTextField.swift */,
 				0E241EF32313F57A00FE7F01 /* UIColorExtension.swift */,
 			);
 			path = HBIDCardInputKeyBoardTF;
@@ -314,6 +317,7 @@
 				0E241ED22313E1F300FE7F01 /* ViewController.swift in Sources */,
 				0E241ED02313E1F300FE7F01 /* AppDelegate.swift in Sources */,
 				0E241EF42313F57A00FE7F01 /* UIColorExtension.swift in Sources */,
+				0ECE8D3A2316173C00436486 /* HBIdCardInputTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
